@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+}
+
 .nav-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7,6 +24,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 20vh;
 }
 
 .nav-container ul {
@@ -24,13 +42,38 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main-container .content {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  padding: 50px;
+  padding-left: 100px;
+}
+
+.main-container .content p {
+  margin: 40px 0;
+  color: #b6b6b6;
+  line-height: 1.5;
+}
+
+.main-container .content h1 {
+  font-size: 60px;
+  color: #447aa9;
+}
+
+.main-container .content button {
+  color: white;
+  border-radius: 500px;
+  border: none;
+  padding: 14px 30px;
+  font-size: 30px;
+  font-weight: 600;
+  background-image: -webkit-gradient(linear, left top, right top, from(#c2269b), to(#3b3eee));
+  background-image: linear-gradient(to right, #c2269b, #3b3eee);
 }
 
 .image-container {
