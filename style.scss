@@ -1,0 +1,30 @@
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        list-style: none;
+        margin-left: 10px;
+    }
+}
+
+.main-container {
+    display: flex;
+    .content {
+        flex: 1;
+        padding: 50px;
+    }
+}
+
+.image-container {
+    flex: 1;
+    img {
+        width: 1000px;
+        transform: translateX(100px);
+    }  
+}
